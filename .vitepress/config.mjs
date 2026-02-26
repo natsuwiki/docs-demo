@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
+  base: '/docs-demo/',
   title: "Natsu Cow",
   description: "A VitePress Site",
   themeConfig: {
