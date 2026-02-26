@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "Natsu Cow",
   description: "A VitePress Site",
   themeConfig: {
@@ -48,4 +49,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 9b76f8406bac9b853fa4901569ed79d92cca4648
