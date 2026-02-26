@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Natsu Cow",
   description: "A VitePress Site",
   themeConfig: {
-    logo:'/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
@@ -18,7 +18,7 @@ export default defineConfig({
         items: [
           { text: '快速开始', link: '/如何使用Bot' },
           { text: '了解Natsu Cow', link: '/NatsuBot简介' },
-          { text: '功能介绍',link: '/功能介绍' },
+          { text: '功能介绍', link: '/功能介绍' },
           { text: '?!', link: '/不能点！！！' }
         ]
       },
@@ -40,7 +40,6 @@ export default defineConfig({
         text: '安全与隐私',
         items: [
           { text: '隐私政策', link: '/隐私政策' }
-
         ]
       }
     ],
@@ -49,24 +48,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
-     // 设置搜索框的样式
-    search: {
-      provider: "local",
-      options: {
-        translations: {
-          button: {
-            buttonText: "搜索文档",
-            buttonAriaLabel: "搜索文档",
-          },
-          modal: {
-            noResultsText: "无法找到相关结果",
-            resetButtonTitle: "清除查询条件",
-            footer: {
-              selectText: "选择",
-              navigateText: "切换",
-            },
-          },
-        },
-      },
-    },
 })
