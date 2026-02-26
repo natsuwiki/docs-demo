@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Natsu Cow",
   description: "A VitePress Site",
   themeConfig: {
-    logo: '/logo.png',
+    logo: 'BD16E5BDD7D9BBDA3BDB20BD72B0A145.webp',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
