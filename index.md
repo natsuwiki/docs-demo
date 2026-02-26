@@ -20,7 +20,7 @@
             }
         ],
         "image": {
-            "src": "\\images\\home\\index_home.png",
+            "src": "\\images\\home\\1771850090578.webp",
             "alt": "",
             "width": "",
             "height": ""
@@ -36,7 +36,7 @@
         },
         {
             "title": "MC框架",
-            "details": "Bot程序基于由Damomo1制作的[MMC框架]开发制作"
+            "details": "Bot程序基于由Damomo1制作的[MSQ框架]开发制作"
         },
         {
             "title": "第三代 群服互联",
